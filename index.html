@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Assignment Deadline Reminder</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Assignment Deadline Reminder</h1>
+
+        <p>Never miss an assignment deadline!</p>
+
+        <label for="assignmentName">Assignment Name</label>
+        <input type="text" id="assignmentName"
+               placeholder="Enter assignment name">
+
+        <label for="deadline">Deadline</label>
+        <input type="date" id="deadline">
+
+        <button onclick="addAssignment()">
+            Add Assignment
+        </button>
+
+        <h2>My Assignments</h2>
+
+        <ul id="assignmentList"></ul>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
